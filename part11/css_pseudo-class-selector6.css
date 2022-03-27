@@ -1,0 +1,16 @@
+/* 가상 클래스 선택자6 : E:nth-type(n) */
+.fruits {
+    font-size: 40px;
+}
+
+.fruits p:nth-type(1) {
+    color: red;
+}
+
+.fruits2 {
+    font-size: 40px;
+}
+
+.fruits2 .red:nth-of-type(1) {
+    color: red;
+}

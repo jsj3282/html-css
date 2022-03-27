@@ -1,0 +1,4 @@
+/* 인접 형제 선택자 E + F */
+.orange+li {
+    color: red;
+}

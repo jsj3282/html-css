@@ -1,0 +1,18 @@
+/* 가상 클래스 선택자4 : E:first-child */
+.fruits li:first-child {
+    color: red;
+}
+
+/* 가상 클래스 선택자5 : E:last-child */
+.fruits li:last-child {
+    color: blue;
+}
+
+/* 가상 클래스 선택자6 : E:nth-child(n) */
+.fruits li:nth-child(2n) {
+    color: yellowgreen;
+}
+
+.fruits li:nth-child(n+3) {
+    color: purple;
+}

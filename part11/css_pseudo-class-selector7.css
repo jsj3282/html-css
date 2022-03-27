@@ -1,0 +1,8 @@
+/* 가상 클래스 선택자7 : E:not(S) */
+.fruits {
+    font-size: 40px;
+}
+
+.fruits li:not(.strawberry) {
+    color: red;
+}

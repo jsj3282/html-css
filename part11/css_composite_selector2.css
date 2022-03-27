@@ -1,0 +1,4 @@
+/* 자식 선택자 E > F */
+ul>.orange {
+    color: red;
+}

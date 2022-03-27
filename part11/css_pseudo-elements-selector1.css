@@ -1,0 +1,39 @@
+/* 가상 요소 선택자1 E::before */
+ul {
+    font-size: 40px;
+}
+
+/* ul li::before {
+    content: "숫자";
+    font-weight: bold;
+    color: red;
+    margin-right: 20px;
+} */
+
+ul li::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: tomato;
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+/* 가상 요소 선택자2 E::after */
+ul li::after {
+    content: url("https://heropy.blog/css/images/logo.png");
+
+}
+
+div {
+    font-size: 100px;
+}
+
+div::before {
+    content: "<";
+}
+
+div::after {
+    content: ">";
+}

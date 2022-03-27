@@ -1,0 +1,14 @@
+/* 가상 클래스 선택자6 : E:nth-child(n) */
+.fruits p:nth-child(1) {
+    color: red;
+}
+
+.box-group>div:first-child {
+    color: red;
+    font-weight: bold;
+}
+
+.box-group :first-child {
+    color: red;
+    font-weight: bold;
+}
