@@ -1,0 +1,13 @@
+/*
+    font-style      글자 기울기 지정
+    font-weight     글자 두께 지정
+    font-size       글자 크기 지정
+    line-height     줄 높이(줄 간격) 지정
+    font-family     글꼴(서체) 지정
+
+    font: 기울기 두께 크기 / 줄높이 글꼴
+*/
+
+.box {
+    font: italic bold 20px / 1.5 "Arial", sans-serif;
+}

@@ -1,0 +1,45 @@
+.list li.item {
+    color: red;
+    /* 21pt */
+}
+
+.list li:hover {
+    color: red;
+    /* 21pt */
+}
+
+.box::before {
+    content: "Good";
+    /* 11pt */
+    color: red;
+}
+
+#submit span {
+    color: red;
+    /* 101pt */
+}
+
+header .menu li:nth-child(2) {
+    color: red;
+    /* 22 pt */
+}
+
+h1 {
+    color: red;
+    /* 1pt */
+}
+
+:not(.box) {
+    color: red;
+    /* 10pt */
+}
+
+:not(span) {
+    /* 1pt */
+    color: red;
+}
+
+/*
+    hover처럼 '가상 클래스'는 '클래스' 선택자의 점수(10pt)를 가지며, ::item처럼 '가상 요소'는
+    '태그' 선택자의 점수(1pt)를 가진다. 부정 선택자 :not()은 점수를 가지지 않는다.
+*/

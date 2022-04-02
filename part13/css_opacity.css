@@ -1,0 +1,11 @@
+.half {
+    opacity: 0.5;
+}
+
+.transparent {
+    opacity: 0;
+}
+
+.box {
+    opacity: .75;
+}

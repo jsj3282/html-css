@@ -1,0 +1,59 @@
+div {
+    color: red !important;
+    /* !important */
+}
+
+#color_yellow {
+    /* 아이디 선택자 */
+    color: yellow;
+}
+
+.color_green {
+    /* 클래스 선택자 */
+    color: green;
+}
+
+div {
+    color: blue;
+    /* 태그 선택자 */
+}
+
+* {
+    color: darkblue;
+    /* 전체 선택자 */
+}
+
+body {
+    color: violet;
+    /* 상속 */
+}
+
+/*
+    1. 가장 중요(!important)
+    모든 선언을 무시하고 가정 우선
+    점수 : ∞ pt
+
+    2. 인라인 선언 방식(Style Attribute)
+    인라인 선언(HTML style 속성을 사용)
+    점수 : 1000 pt
+
+    3. 아이디 선택자(ID Selector)
+    아이디 선택자
+    점수 : 100 pt
+
+    4. 클래스 선택자(Class Selector)
+    클래스 선택자
+    점수 : 10pt
+
+    5. 태그 선택자(Type Selector)
+    태그 선택자
+    점수 : 1pt
+
+    6. 전체 선택자(Universal Selector)
+    전체 선택자
+    태그 : 0pt
+
+    7. 상속(CSS Inheritance)
+    상속 받은 속성은 항상 우선하지 않음
+    점수 : 계산하지 않음
+*/

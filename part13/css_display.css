@@ -1,0 +1,50 @@
+/*
+
+                속성 값 
+    값                    의미
+    block                블록 요소(<div> 등)
+    inline               인라인 요소(<span> 등)
+    inline-block         인라인-블록 요소(<input> 등)
+    기타                  table, table-cell, flex 등
+    none                 요소의 박스 타입이 없음(요소가 사라짐)
+*/
+
+span {
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    display: block;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: royalblue;
+    display: inline;
+}
+
+input {
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: 50px 0;
+    padding: 20px 0;
+}
+
+input:nth-child(2) {
+    display: none;
+    /* opacity: 0; */
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.hide {
+    display: none;
+}

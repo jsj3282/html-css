@@ -1,1 +1,26 @@
 /* 속성 선택자 [attr] */
+[disabled] {
+    opacity: 0.5;
+    color: red;
+}
+
+/* 속성 선택자 [attr=value] */
+[type="password"] {
+    opacity: 0.5;
+    color: blue;
+}
+
+/* 속성 선택자 [attr^=value] */
+[class^="btn-"] {
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/* 속성 선택자 [attr$=value] */
+[class$="success"] {
+    color: green
+}
+
+[class$="danger"] {
+    color: red;
+}

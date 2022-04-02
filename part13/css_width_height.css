@@ -1,0 +1,9 @@
+div {
+    width: auto;    /* 100% */
+    height: auto;   /* 0 */
+}
+
+span {
+    width: auto;    /* 0 */
+    height: auto;   /* 0 */
+}

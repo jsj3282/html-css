@@ -1,0 +1,16 @@
+/* 100 * 100(px) 크기의 요소 만들기 */
+.box {
+    width: 60px;                /* +40px */
+    height: 80px;               /* +20px */
+    background: red;
+    padding: 10px 20px;
+}
+
+/* 100 * 100(px) 크기의 요소 만들기 */
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}

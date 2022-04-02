@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css_display.css">
+</head>
+<body>
+    <!-- <span></span>
+    <div></div>
+    <input type="text">1</input>
+    <input type="text">2</input>
+    <input type="text">3</input>
+    <input type="text">4</input>
+    <input type="text">5</input> -->
+    <button>Toggle</button>
+    <div>요소</div>
+    <script>
+        const el = document.querySelector('div');
+        console.log(el);
+        const btn = document.querySelector('button');
+        console.log(btn)
+        btn.addEventListener('click', function() {
+            if (el.classList.contains('hide')) {
+                el.classList.remove('hide');
+            } else {
+                el.classList.add('hide');
+            }
+        });
+    </script>
+
+    <button id='btn-greet'>인사</button>
+    <script>
+    document.getElementById('btn-greet').addEventListener('click', function() {
+        console.log('안녕 친구들');
+    });
+    </script>
+
+</body>
+</html>

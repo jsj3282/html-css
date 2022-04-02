@@ -1,0 +1,7 @@
+.parent {
+    position: absolute;
+}
+
+.child {
+    position: inherit;
+}
