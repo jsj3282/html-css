@@ -1,0 +1,22 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    margin: 100px;
+    /* transform: rotate(45deg) translate(100px, 30px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: 1s;
+    margin: 100px;
+}
+
+.box:hover {
+    /* position: relative;
+    left: 100px;
+    top: 30px; */
+    /* transform: translate(100px, 30px); */
+    /* transform: scale(1.5); */
+    transform: skewX(-45deg);
+}
